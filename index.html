@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
     <title>Be Synced - Stay Connected</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
@@ -10,15 +13,15 @@
     <div class="container mx-auto px-4 py-10">
       <!-- Logo and Heading -->
       <div class="flex flex-col items-center mb-10">
-        <img src="logo.png" alt="Be Synced Logo" class="w-40 mb-4" />
-        <h1 class="text-4xl font-bold">Be Synced</h1>
-        <p class="text-lg text-blue-400">
+        <img src="logo.png" alt="Be Synced Logo" class="w-32 md:w-40 mb-4" />
+        <h1 class="text-3xl md:text-4xl font-bold text-center">Be Synced</h1>
+        <p class="text-lg text-blue-400 text-center">
           BE CONNECTED WITH YOUR LOVED ONES !!
         </p>
       </div>
 
       <!-- Features Section -->
-      <div class="grid md:grid-cols-2 gap-8">
+      <div class="grid sm:grid-cols-1 md:grid-cols-2 gap-6">
         <div class="p-6 bg-gray-800 rounded-xl shadow-lg">
           <h2 class="text-2xl font-semibold mb-4">Key Features</h2>
           <ul class="list-disc pl-5 space-y-2">
@@ -29,6 +32,7 @@
             <li>Custom Notifications for Important Updates</li>
           </ul>
         </div>
+
         <div class="p-6 bg-gray-800 rounded-xl shadow-lg">
           <h2 class="text-2xl font-semibold mb-4">Why Choose Us?</h2>
           <ul class="list-disc pl-5 space-y-2">
@@ -39,29 +43,32 @@
           </ul>
         </div>
       </div>
+
       <div class="mt-10 text-center">
         <a
           href="https://drive.google.com/file/d/1-2vTVYx0N6T1hgJlcQ2KVrvoGocHpMUE/view?usp=drive_link"
           target="_blank"
           class="bg-blue-500 text-white py-3 px-6 rounded-lg hover:bg-blue-600 transition-all"
-          >Download Now</a
         >
+          Download Now
+        </a>
       </div>
 
       <!-- Screenshot Section -->
-      <div class="mt-20">
-        <h2 class="text-2xl font-bold text-center mb-4 text-white">
+      <div class="mt-16">
+        <h2 class="text-2xl font-bold text-center mb-6 text-white">
           Screenshots
         </h2>
 
-        <div class="grid md:grid-cols-3 gap-2">
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <!-- Screenshot 1 -->
           <div
             class="relative group overflow-hidden rounded-lg shadow-md transform transition-all duration-500 hover:scale-105"
           >
             <img
               src="ss.jpeg"
               alt="Live Location"
-              class="rounded-lg w-full h-auto max-h-52 object-contain"
+              class="rounded-lg w-full h-auto object-contain"
             />
             <div
               class="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500"
@@ -70,13 +77,14 @@
             </div>
           </div>
 
+          <!-- Screenshot 2 -->
           <div
             class="relative group overflow-hidden rounded-lg shadow-md transform transition-all duration-500 hover:scale-105"
           >
             <img
               src="ss1.jpeg"
-              alt="driver dashboard"
-              class="rounded-lg w-full h-auto max-h-52 object-contain"
+              alt="Driver Dashboard"
+              class="rounded-lg w-full h-auto object-contain"
             />
             <div
               class="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500"
@@ -85,13 +93,14 @@
             </div>
           </div>
 
+          <!-- Screenshot 3 -->
           <div
             class="relative group overflow-hidden rounded-lg shadow-md transform transition-all duration-500 hover:scale-105"
           >
             <img
               src="ss2.jpeg"
-              alt="Group chat"
-              class="rounded-lg w-full h-auto max-h-52 object-contain"
+              alt="Group Chat"
+              class="rounded-lg w-full h-auto object-contain"
             />
             <div
               class="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500"
